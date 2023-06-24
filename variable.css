@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root{
+	--color-whitesmoke: whitesmoke;
+	--color-black: #1A1A1C;
+	--color-grey: rgb(120, 120, 120);
+	--color-red: rgb(255, 0, 0);
+	--color-green: rgb(12, 131, 31);
+	--fw-400: 400;
+	--fw-500: 500;
+	--fw-700: 700;
+	--fw-900: 900;
+	--font-family: 'Lato', sans-serif;
+
+}

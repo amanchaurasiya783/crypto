@@ -1,0 +1,85 @@
+@import url(variable.css);
+
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: var(--font-family);
+	font-size: 1rem;
+	color: var(--color-whitesmoke);
+	box-sizing: border-box;
+}
+
+body{
+	background: var(--color-black);
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+button, input{
+	padding: 15px;
+	border: 1px solid var(--color-grey);
+	background-color: transparent;
+	outline: none;
+	margin: 10px 0;
+}
+
+::placeholder {
+  color: var(--color-whitesmoke);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--color-whitesmoke);
+;
+}
+
+::-ms-input-placeholder {
+    color: var(--color-whitesmoke);
+
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+nav #search{
+	flex-grow: 4;
+}
+
+nav #button{
+	flex-grow: 1;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table tr{
+	border-bottom: 1px solid var(--color-grey);
+}
+
+table tr td{
+	padding: 15px;
+}
+
+td img{
+	height: 20px;
+	width: 20px;
+}
+
+@media all and (max-width: 900px){
+	.container{
+		width: 95%;
+	}
+	table tr td{
+	padding: 5px 10px;
+}
+}

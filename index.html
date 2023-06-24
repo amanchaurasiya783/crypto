@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Crypto Market</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- ------------------------- navbar for search -------------------------  -->
+			<nav>
+				<input type="text" id="search" name="search" placeholder="Search By Name or Symbol" onkeypress="searchfunction()">
+				<button class="market" onclick="sortByMktCap()">Sort By Mkt Cap</button>
+				<button class="percent" onclick="sortByPercent()">Sort By Percentage</button>
+			</nav>
+			<!-- ------------------------- table -------------------------  -->
+			<table>
+				<tbody id="table_data">
+				</tbody>
+			</table>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
